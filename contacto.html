@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+    <head><!--dentro del head van todas las etiquetas informativas-->
+        <meta charset="utf-8">
+        <title>Contacto - Barberia Alura</title>
+        <link rel="stylesheet" href="reset.css/reset.css"><!--con reset se resetea el visual-->
+        <link rel="stylesheet" href="productos.css">
+    </head>
+    <body> 
+        <header><!--es el término que hace referencia a la parte superior de un sitio web-->
+            <div class="caja">
+                <h1><img src="imagenes/logo.png" alt="Logo Barberia Alura"></h1>
+                <nav><!-- NAV etiqueta de panel de navegacion -->
+                    <ul>
+                        <li><a href="Barberia Alura.html">Home</a></li><!--la union de links-->
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form><!--Representa a la etiqueta de un formulario-->
+                <label for="nombreapellido">Nombre y Apellido</label> <!--es una etiqueta para la entrada de datos para el <input>-->
+                <input type="text" id="nombreapellido" class="input-padron" required> <!-- con el for y id se juntan para referenciarse uno del otro y el requerid es para que el espacio se obligatorio-->
+                
+                <label for="correoelectronico">Correo Electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com"> <!-- El type es la clase de inputs que vas a poner text es de tipo texto-->
+                
+                    <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" requerid placeholder="(xx)xxxx xxxx"><!--placeholder es para ayudar al cliente en completar la info-->
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea> <!--etiqueta de caja de texto especial-->
+                
+                <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                     <!--con el name se le da el nombre para selecionar una sola casilla y no varias-->
+    
+                    <label for="radio-telefono"><input type="radio"  name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio"  name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label><!-- la propiedad checked sirve para poner como defecto si el usuario no especifica una opcion-->
+                    
+                </fieldset>
+
+                    <fieldset>
+                    <legend>¿En que horario quieres ser atendido?</legend>
+                    <select><!-- es selector, un campo de selección de un ítem-->
+                        <option>Mañana</option><!--la etiqueta option es para crear en la lista cada una de las opciones-->
+                        <option>Tarde</option>
+                        <option>Noche</option>   
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaria resivir novedades de la Barberia Alura?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar"><!-- etiqueta que hace el boton de enviar-->
+            </form>
+
+            <table><!--etiqueta para hacer tablas-->
+                <thead><!--el encabezado de una tabla-->
+                    <tr><!--etiqueta para hacer lineas  o filas en las tablas-->
+                        <th>Dia</th><!--Celdas que pertenecen alencabezado-->
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     <tr>
+                        <td>Lunes</td><!--celdas de las tablas-->
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>  
+            </table>
+        </main> 
+        <footer><!--la etique que se encarga de mostrar el pie de pagina de un sitio web -->
+            <img src="imagenes/logo-blanco.png" alt="Logo Barberia Alura">
+            <p class="copyright">&copy Copyright Barberia Alura - 2023</p>
+
+        </footer>
+    </body>
+</html>  
+

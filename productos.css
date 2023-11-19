@@ -1,0 +1,276 @@
+body{
+    font-family:'Montserrat',sans-serif;
+}
+
+header{
+    background-color: #fefefe;
+    background: linear-gradient(#fefefe,#888888);
+    padding: 20px,0; /*padding propiedad de espaciamento interno*/
+}
+
+.caja{
+    width: 940px;
+    position:relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute; /* yo puedo posicionar mi elemento en cualquier lugar de la página*/
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;/*no ocupa el 100% de la pagina los pone horizontal*/
+    margin: 0 0 0 15px;/*propiedad de espaciamento interno con 4 parametros*/
+}
+
+nav a{
+    text-transform: uppercase;/*texto en MAYUSCULA*/
+    color: #000000;/*cambia de color al texto*/
+    font-weight: bold;/*para que el texto sea en negrita*/
+    font-size: 22px;/*altera el tamaño a nuestra pagina*/
+    text-decoration: none;/*quita el subrayado azul*/
+}
+
+nav a:hover /*captura el movimiento del mause y resalta los items */{
+    color: #c78c19;
+    text-decoration: underline;/*hace el efecto de subrayado*/
+} 
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;/*padding de espaciamiento se comporta estoy aumentando el contenido */
+}  
+
+.productos li{
+    display: inline-block;/* crea cajas que son de bloque */
+    text-align: center;/*texto alineado al centro */
+    width: 30%;/*se aliena el 30% de los items*/
+    vertical-align: top;/*la alineacion de los item sean verticales*/
+    margin: 0 1.5;/*espacio esterno en los laterales*/
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;/*el color del borde*/
+    border-width: 2px;/*el acho del borde*/
+    border-style: solid;/*linea solida*/
+    border:2px solid #000000; /*forma resumida de border*/
+    border-radius: 10px;/*border-radius, podemos diseñar la esquina redondeada de los elementos*/
+
+}
+
+.productos li:hover{    
+        color: #c78c19;
+        text-decoration: underline;
+}
+
+.productos li:active /* captura el evento del click y resalta el item */{
+    border-color: #099c19;
+}
+
+.productos h2{
+    font-size: 30px;/* tamaño de fuente*/
+    font-weight: bold;
+}
+
+.productos li:hover h2{ /*efecto de engrandamiento en los items */
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px; /*propiedade para dar espacio de un texto a otro*/
+}
+
+footer{
+ text-align: center;/*ubica los elemtos al centro*/  
+ background:url(imagenes/bg.jpg);
+ padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;/*tamaño de texto o fuente*/
+    margin: 20px;
+}
+
+form{
+    margin: 40  px 0;
+}
+
+form label,form legend{ /* replicar estilos para varios selectores poniendo una come y el nombre del selector*/
+    display: block;/* poner en formato vertical*/
+    font-size: 20px;    
+    margin: 0 0 10px;
+}
+
+.input-padron{ 
+    display: block;
+    margin: 0 0 20;
+    padding: 10px 25px;/*padding sirve para cambiar el espaciado interno, entre el contenido y el borde*/
+    width: 50%; /*el ancho de los inputs*/
+
+}
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none; /*quitarle los bordes al boton*/
+    border-radius: 5px;/*redondear las puntas al boton*/
+    transition: 1s all;/*trancicion de color en el boton eviar y el all aplica la transicion para todos los elementos*/
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;/*scale() para aumentar un elemento proporcionalmente*/
+    transform: scale(1.2); /*transform se utiliza para aumentar el efecto del boton */
+}
+
+table{
+    margin: 40px 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid black; 
+    padding: 8px 15px;   
+}
+
+/*Aqui inicia el CSS para nuestro home*/
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; /* 2em significa 2 veces el tamaño de fuente */
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left; /* ubicamos la imagen a la izquierda con la propiedad float*/
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);/* linear gradient funcion la cual hace un degradado en los colores*/
+}
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;  
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items::before{ /* de esta manera se pone las estreyas al principio de cada linea*/
+    content: "★";
+}
+
+.items:first-child{/*hacemos uso de las seudo clases para pintar de negrito el primer texto de la lista*/
+    font-weight: bold;/*nth-child() la uzamos para indicar cual de ellas se requiere resaltar de negrito*/
+}
+
+.imagen-diferenciales{
+    width: 50%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px black ;/*propiedad para dar sombra a un elemento */
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+}
+
+.video{ /*aqui el video lo centralizamos*/
+    width: 560px;
+    margin: 1em auto;
+}  
+
+@media screen and (max-width: 480px) { /*Dentro de esta media query podemos crear un estilo visual que incluye pantallas de hasta 480px*/
+    h1{
+        text-align: center;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales,.video{
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+}
+
+    
+    
+
+
+
+
