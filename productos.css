@@ -4,7 +4,7 @@ body{
 
 header{
     background-color: #fefefe;
-    background: linear-gradient(#fefefe,#888888);
+    background: linear-gradient(#cfab09,#ee0404);
     padding: 20px,0; /*padding propiedad de espaciamento interno*/
 }
 
@@ -144,7 +144,7 @@ table{
 }
 
 thead{
-    background: #555555;
+    background: linear-gradient(#cfab09,#ee0404);
     color: white;
     font-weight: bold;
 }
@@ -162,8 +162,8 @@ td,th{
 
 .principal{
     padding: 3em;
-    background: #fefefe;
-    width: 940px;
+    background: linear-gradient(#cfab09,#ee0404);
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -194,7 +194,8 @@ td,th{
 
 .mapa{
     padding: 3em 0;
-    background: linear-gradient(#fefefe,#888888);/* linear gradient funcion la cual hace un degradado en los colores*/
+    background: linear-gradient(#cfab09,#ee0404);
+   /* linear gradient funcion la cual hace un degradado en los colores*/
 }
 
 .mapa p{
@@ -209,7 +210,7 @@ td,th{
 
 .diferenciales{
     padding: 3em 0;
-    background: #888888;  
+    background: linear-gradient(#cfab09,#ee0404);
 }
 
 .contenido-diferenciales{
