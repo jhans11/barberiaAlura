@@ -110,6 +110,15 @@ form label,form legend{ /* replicar estilos para varios selectores poniendo una 
     margin: 0 0 10px;
 }
 
+.formulario{
+    text-align: center;
+    margin: 50px;
+}
+
+.Respuesta{
+    margin: 8px;
+}
+
 .input-padron{ 
     display: block;
     margin: 0 0 20;
