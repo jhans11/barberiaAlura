@@ -22,18 +22,18 @@
         </header>
         <main>
             <h1>Diligencia este formulario para contactarnos contigo</h1>
-            <form><!--Representa a la etiqueta de un formulario-->
+            <form class="formulario"><!--Representa a la etiqueta de un formulario-->
                 <label for="nombreapellido">Nombre y Apellido</label> <!--es una etiqueta para la entrada de datos para el <input>-->
-                <input type="text" id="nombreapellido" class="input-padron" required> <!-- con el for y id se juntan para referenciarse uno del otro y el requerid es para que el espacio se obligatorio-->
+                <input class="Respuesta" type="text" id="nombreapellido" required> <!-- con el for y id se juntan para referenciarse uno del otro y el requerid es para que el espacio se obligatorio-->
                 
                 <label for="correoelectronico">Correo Electronico</label>
-                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com"> <!-- El type es la clase de inputs que vas a poner text es de tipo texto-->
+                <input class="Respuesta" type="email" id="correoelectronico" required placeholder="email@dominio.com"> <!-- El type es la clase de inputs que vas a poner text es de tipo texto-->
                 
                     <label for="telefono">Telefono</label>
-                <input type="tel" id="telefono" class="input-padron" requerid placeholder="(xx)xxxx xxxx"><!--placeholder es para ayudar al cliente en completar la info-->
+                <input class="Respuesta" type="tel" id="telefono" requerid placeholder="(xx)xxxx xxxx"><!--placeholder es para ayudar al cliente en completar la info-->
 
                 <label for="mensaje">Mensaje</label>
-                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea> <!--etiqueta de caja de texto especial-->
+                <textarea class="Respuesta" cols="70" rows="10" id="mensaje" required></textarea> <!--etiqueta de caja de texto especial-->
                 
                 <fieldset>
                     <legend>¿Como le gustaria que lo contactemos?</legend>
