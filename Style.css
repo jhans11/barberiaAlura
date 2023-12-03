@@ -68,3 +68,15 @@ ul{
 .imagenDiferenciales{
     width: 50%;
 }
+.corte {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 150%;
+    background-image: linear-gradient(180deg, #0000009c 0%, #0000009c 100%), url('../images/inicio.webp');
+    background-size: cover;
+    clip-path: polygon(0 0 0 0);
+    z-index: -1;
+}
