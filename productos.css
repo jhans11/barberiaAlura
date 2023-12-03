@@ -110,6 +110,11 @@ form label,form legend{ /* replicar estilos para varios selectores poniendo una 
     margin: 0 0 10px;
 }
 
+.titulofor{
+    text-align: center;
+    margin: 15px;
+}
+
 .formulario{
     text-align: center;
     margin: 50px;
