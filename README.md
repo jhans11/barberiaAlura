@@ -1,26 +1,36 @@
-Barbería Alura
-Este proyecto es una representación digital de la Barbería Alura, desarrollada con HTML y CSS. Proporciona una visión virtual de los servicios y la estética de la barbería, ofreciendo una experiencia atractiva y envolvente.
+# 💈 Barbería Alura
 
-Por qué el Proyecto es Útil
-Barbería Alura es una ventana al mundo de la estilización masculina, ofreciendo a los usuarios una idea clara de los servicios ofrecidos y la atmósfera de la barbería. Es útil para:
+Este proyecto es una representación digital de la **Barbería Alura**, desarrollada con tecnologías web básicas como **HTML** y **CSS**. Proporciona una experiencia inmersiva que refleja los servicios, estilo y ambiente de una barbería moderna y profesional.
 
-Conocer los servicios de la barbería.
-Visualizar la estética y el ambiente de la Barbería Alura.
-Obtener información sobre el equipo de barberos y su experiencia.
-Cómo Comenzar con el Proyecto
+---
 
-Para comenzar a explorar el proyecto:
+## 🚀 ¿Por qué este proyecto es útil?
 
-Clonar o Descargar: Clona o descarga el repositorio del proyecto en tu máquina local.
-Abrir el Archivo HTML: Abre el archivo index.html en tu navegador web preferido.
-Para obtener ayuda con el proyecto:
+**Barbería Alura** sirve como una ventana virtual para explorar:
 
-Si tienes preguntas o problemas técnicos, no dudes en contactar al equipo de Barbería Alura a través del correo electrónico contacto@barberiaalura.com.
-Quién Mantiene y Contribuye con el Proyecto
-Este proyecto es mantenido y desarrollado por:
+- 💇‍♂️ Los servicios que ofrece la barbería.
+- 🖼️ La estética visual del local y su diseño.
+- 🧑‍🎨 Información sobre el equipo de barberos y su experiencia profesional.
 
-Jhans Deiby Echavarria Jimenez (https://github.com/jhans11)
-Cualquier contribución al proyecto es bienvenida. Si deseas contribuir, sigue las pautas en el archivo CONTRIBUTING.md.
+Es ideal como proyecto de presentación para mostrar habilidades en diseño web estático y semántica HTML.
 
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+
+> Este proyecto no utiliza frameworks ni librerías externas, lo que lo hace ideal para demostrar dominio puro de HTML y CSS.
+
+---
+
+## 📂 Cómo comenzar con el proyecto
+
+1. **Clona el repositorio:**
+
+```bash
+git clone https://github.com/jhans11/barberia-alura.git
 
 Este proyecto está bajo la licencia MIT.
+
